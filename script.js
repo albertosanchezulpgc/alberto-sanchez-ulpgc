@@ -2,13 +2,13 @@ const traducciones = {
   es: {
     nombre: "Juan Alberto",
     apellidos: "Sánchez Hernández",
-    organismo: "Organismo: Universidad de Las Palmas de Gran Canaria",
+    organismo: "<a href="https://www.ulpgc.es">Organismo: Universidad de Las Palmas de Gran Canaria</a>",
     curriculum: ["Diplomado en Informática", "Licenciado en Informática", "Gestor de Proyectos de Desarrollo de Aplicaciones desde 1999", "Investigador en IA y Big Data"]
   },
   en: {
     nombre: "Juan Alberto",
     apellidos: "Sánchez Hernández",
-    organismo: "Organization: University of Las Palmas de Gran Canaria",
+    organismo: "<a href="https://www.ulpgc.es">Organization: University of Las Palmas de Gran Canaria</a>",
     curriculum: ["Associate Degree in Computer Science", "Bachelor's Degree in Computer Science", Application Development Project Manager since 1999", "Researcher in AI and Big Data"]
   }
 };
@@ -29,3 +29,4 @@ function cambiarIdioma() {
     lista.appendChild(li);
   });
 }
+
